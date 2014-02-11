@@ -32,8 +32,9 @@
           <a href="/" class="brand">
             <img src="img/logo.jpg" alt="parkside logo" class="logo">
           </a>
+
           <ul class="pull-right">
-            <li><a href="#work">Work</a></li>
+            <li><a href="/">Work</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
@@ -43,64 +44,32 @@
   </div>
 </header>
 
-<div class="super-hero"></div>
-<div class="super-hero-inner pure-g-r">
-  <img src="img/bigflower.png" alt="flower logo overlap" class="pull-right" id="big-flower">
+<div id="contact" class="pure-g-r">
   <div class="pure-u-1 pure-center">
-    <div class="pure-u-7-8">
-      <div class="hero-text-wrapper">
-        <h1>We turn problems<br>into solutions</h1>
-      </div>
+    <div class="pure-u-1">
+      <h2 class="h1 center cushion-y">
+        Get in touch.
+      </h2>
     </div>
-  </div>
-</div>
-
-<div class="below-hero">
-  <div id="approach" class="pure-g-r approach cushion-y">
-    <div class="pure-u-1 pure-center">
-      <div class="pure-u-7-8">
-        <h2 class="h1">Intro section.</h2>
-      </div>
-    </div>
-  </div>
-  <div class="pure-g-r approach-description">
-    <div class="pure-u-1 pure-center">
-      <div class="pure-u-3-8">
-        <h3 class="no-nuthin">Placeholder</h3>
-        <p class="lead">
-          Placeholder.
-        </p>
-      </div>
-      <div class="pure-u-1-8"></div>
-      <div class="pure-u-3-8">
-        <h3 class="no-nuthin">Placeholder</h3>
-        <p class="lead">
-          Placeholder.
-        </p>
-      </div>
-      <div class="pure-u-1 cushion-y"></div>
-      <div class="pure-u-3-8">
-        <h3 class="no-nuthin">Placeholder</h3>
-        <p class="lead">
-          Placeholder.
-        </p>
-      </div>
-      <div class="pure-u-1-8"></div>
-      <div class="pure-u-3-8">
-        <h3 class="no-nuthin">Placeholder</h3>
-        <p class="lead">
-          Placeholder.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div id="work" class="pure-g-r lightest-cake-layer">
-    <div class="pure-u-1 pure-center">
-      <div class="pure-u-7-8">
-        <h2 class="h1 cushion-y">
-          This is where the work goes.
-        </h2>
-      </div>
+    <div class="pure-u-1-2">
+      <form class="pure-form pure-form-stacked cushion-y contact center">
+        <fieldset class="margin-contact">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="John Smith" class="pure-input-1" autocomplete="off">
+          <br>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="johnsmith@example.com" class="pure-input-1" autocomplete="off">
+          <br>
+          <label for="text">Subject</label>
+          <input id="subject" type="text" placeholder="Message Subject" class="pure-input-1" autocomplete="off">
+          <br>
+          <label for="message">Message</label>
+          <textarea id="message" type="text" placeholder="We need help with..." class="pure-input-1" autocomplete="off"></textarea>
+          <br>
+          <button type="submit" id="contact-submit" class="pure-button pure-button-primary pull-right"> <i class="icon-paperplane"></i> &nbsp; Send Message</button>
+        </fieldset>
+        <p class="cushion-y">If you prefer, send us an email to <a href="mailto:hello@parkside.io">hello@parkside.io</a>.</p>
+      </form>
     </div>
   </div>
 </div>
@@ -117,7 +86,6 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 -->
-
 <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
 <script src="js/parse.js"></script>
 </body>
