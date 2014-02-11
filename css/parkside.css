@@ -81,12 +81,12 @@ header {
   height: 100%;
   
   left: 0;
-  right: 0;
+  right: -50%;
   top: 0;
   bottom: 0;
 
   
-  background: none no-repeat center center fixed;
+  background: url(../img/hero.jpg) no-repeat right center fixed;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -114,11 +114,12 @@ header {
   margin-top: 10px;
   padding: 10px;
   font-size: 80px;
-  font-weight: 200;
+  font-weight: 400;
   width: auto;
-  color: #515151;
+  color: #fff;
   float: left;
   line-height: 90px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .below-hero {
