@@ -23,7 +23,7 @@ $(window).ready(function() {
     happy_p = '<p id="result-msg">Thanks for getting in touch. <br> We\'ll get back to you as soon as possible.</p><br><br>';
     sad_p = '<p id="result-msg">Sorry about that, something went wrong.</p><br><br>';
 
-    if(true || $().createAndSaveContact()) {
+    if($().createAndSaveContact()) {
       $('form.contact').prepend(happy_p);
     } else { 
       $('form.contact').prepend(sad_p) && $('#contact-submit').attr('disabled', false).removeClass('disabled');
