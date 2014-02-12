@@ -1,4 +1,4 @@
-Parse.initialize("", "");
+Parse.initialize("03aUjJu9Fz7GmmE4QZDNnAwmUZA8VxeZe3Jf1J7Z", "Pl2oGJ3BjWx3J0fcwsH6ztSLqY4mxtb9tF04c6Dv");
 
 $.fn.createAndSaveContact = function() {
   var ContactObject = Parse.Object.extend("ContactObject");
