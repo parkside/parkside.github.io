@@ -282,6 +282,25 @@ p {
 }
 
 @media(max-width: 575px) {
+  .hero-text-wrapper {
+    margin-top: 70%;
+  }
+  .hero-text-wrapper h1 {
+    font-size: 60px;
+  }
+  .pure-menu .brand,
+  .pure-menu ul li {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .pure-menu ul.pull-right {
+    float: none;
+    width: 100%;
+  }
+  .pure-menu ul li a {
+    padding: 10px;
+  }
   .pure-center [class*="pure-u-"] {
     width: 100% !important;
     padding: 20px;
