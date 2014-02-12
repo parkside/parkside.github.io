@@ -16,6 +16,7 @@ $(document).ready(function(){
       message: document.getElementById('message').value
     }
 
+    $('#result-msg').remove();
     happy_p = '<p id="result-msg">Thanks for getting in touch. <br> We\'ll get back to you as soon as possible.</p><br><br>';
     sad_p = '<p id="result-msg">Sorry about that, something went wrong.</p><br><br>';
 
@@ -32,8 +33,5 @@ $(document).ready(function(){
         $('form.contact').attr('disabled', false).removeClass('disabled');
       }
     });
-
-    return false;
   });
-
 });
