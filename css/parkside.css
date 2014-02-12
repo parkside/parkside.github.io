@@ -4,6 +4,7 @@
           box-sizing: border-box;
  }
 
+html,
 body {
   width: 100%;
   overflow-x: hidden;
@@ -86,8 +87,8 @@ header {
 
 #big-flower {
   position: absolute;
-  top: 50%;
-  right: -400px;
+  bottom: 0;
+  right: 0;
   z-index: -1;
 }
 
@@ -196,7 +197,7 @@ h2, .h2 {
 }
 h3, .h3 {
   font-size: 1.75em;
-  line-height: 1.75em;
+  line-height: 1.5em;
   margin-bottom: 5px;
 }
 h4, .h4 {
@@ -272,6 +273,36 @@ a {
   color: #40AA52;
 }
 
+p {
+  letter-spacing: 0px;
+}
+
 .pure-button.pure-button-primary {
   background-color: #40AA52;
+}
+
+@media(max-width: 575px) {
+  .hero-text-wrapper {
+    margin-top: 70%;
+  }
+  .hero-text-wrapper h1 {
+    font-size: 60px;
+  }
+  .pure-menu .brand,
+  .pure-menu ul li {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .pure-menu ul.pull-right {
+    float: none;
+    width: 100%;
+  }
+  .pure-menu ul li a {
+    padding: 10px;
+  }
+  .pure-center [class*="pure-u-"] {
+    width: 100% !important;
+    padding: 20px;
+  }
 }
