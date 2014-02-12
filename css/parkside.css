@@ -4,6 +4,7 @@
           box-sizing: border-box;
  }
 
+html,
 body {
   width: 100%;
   overflow-x: hidden;
@@ -86,8 +87,8 @@ header {
 
 #big-flower {
   position: absolute;
-  top: 50%;
-  right: -400px;
+  bottom: 0;
+  right: 0;
   z-index: -1;
 }
 
@@ -278,4 +279,11 @@ p {
 
 .pure-button.pure-button-primary {
   background-color: #40AA52;
+}
+
+@media(max-width: 575px) {
+  .pure-center [class*="pure-u-"] {
+    width: 100% !important;
+    padding: 20px;
+  }
 }
