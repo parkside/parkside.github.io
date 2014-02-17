@@ -90,6 +90,7 @@ header {
   bottom: 0;
   right: 0;
   z-index: -1;
+  max-width: 50%;
 }
 
 .super-hero {
@@ -283,10 +284,11 @@ p {
 
 @media(max-width: 575px) {
   .hero-text-wrapper {
-    margin-top: 70%;
+    margin-top: 100%;
   }
   .hero-text-wrapper h1 {
-    font-size: 60px;
+    font-size: 20px;
+    line-height: 50px;
   }
   .pure-menu .brand,
   .pure-menu ul li {
