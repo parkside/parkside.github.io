@@ -143,6 +143,12 @@ header {
   z-index: 5;
 }
 
+.sub-text {
+	padding: 10px;
+	float: left;
+	color: #515151;
+}
+
 .below-hero {
   position: absolute;
   top: 100%;
